@@ -10,8 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 @SpringBootApplication
@@ -19,7 +17,6 @@ public class Main {
     public static void main(String[] args) {
 
         //   NEVER DO THIS
-//
 //        CustomerService customerService = new CustomerService(new CustomerDataAccessService());
 //        CustomerController customerController = new CustomerController(customerService);
 
